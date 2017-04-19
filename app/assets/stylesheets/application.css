@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-image: url("http://www.sensuoussandwich.com/Images/SSlogoFade2small.jpg")
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+div p {
+	position: absolute;
+	display: block;
+	right: 10px;
+	top: -5px;
+}
