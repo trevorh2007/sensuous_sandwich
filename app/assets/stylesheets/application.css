@@ -14,22 +14,40 @@
  *= require_self
  */
 
+* {
+	font-family:;
+}
 h1 {
 	text-align: center;
 }
 
 body {
-	background-image: url("http://www.sensuoussandwich.com/Images/SSlogoFade2small.jpg")
+	background-image: linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0))
 }
 
 img {
 	display: block;
 	margin: auto;
+	clear: both;
 }
 
 div p {
 	position: absolute;
 	display: block;
 	right: 10px;
-	top: -5px;
+	top: 0px;
+}
+
+#orem_address {
+
+}
+
+#sandwhich_length ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+#sandwhich_price ul li {
+	display: inline-block;
+	margin: 10px;
 }
