@@ -12,6 +12,15 @@ img {
 	clear: both;
 }
 
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+h3 {
+	text-align: center;
+}
+
 #facebook {
 	position: absolute;
 	display: block;
@@ -42,21 +51,21 @@ img {
 }
 
 size {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
+	position: relative;
+	top: 0px;
 	border-top: 1px solid #d1d1d1;
 	text-align: center;
 	width: 100%;
 	margin-bottom: 0px;
+	clear: both;
 }
-#sandwhich_length ul li {
+#sandwich_length ul li {
 	display: inline-block;
 	margin: 0px 70px 0px 70px;
 	bottom: 0px;
 }
 
-#sandwhich_price ul li {
+#sandwich_price ul li {
 	display: inline-block;
 	margin: 0px 60px 0px 60px;
 	bottom: 0px;
@@ -92,6 +101,13 @@ menuright ul li {
 	list-style: none;
 }
 
-#sand_desc {
+#sand_Desc {
   font-style: italic;
+  text-indent: 50px;
+  padding: 5px;
+}
+
+#sand_name {
+	font-weight: bold;
+	text-decoration: underline;
 }
