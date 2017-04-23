@@ -1,4 +1,10 @@
 class MenuController < ApplicationController
-	def show
-	end
+  def home
+  end
+
+  def about
+  end
+
+  def contact
+  end
 end
