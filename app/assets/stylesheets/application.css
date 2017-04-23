@@ -15,10 +15,7 @@
  */
 
 * {
-	font-family:;
-}
-h1 {
-	text-align: center;
+	font-family: Arial;
 }
 
 body {
@@ -31,23 +28,64 @@ img {
 	clear: both;
 }
 
-div p {
+#facebook {
 	position: absolute;
 	display: block;
 	right: 10px;
 	top: 0px;
 }
 
-#orem_address {
-
+#provo_address {
+	position: absolute;
+	top: 550px;
+	left: 200px;
 }
 
+#provo_address ul li {
+	display: block;
+}
+
+#orem_address {
+	position: absolute;
+	top: 550px;
+	right: 200px;
+}
+
+#orem_address ul li {
+	display: block;
+}
+
+size {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	border-top: 1px solid #d1d1d1;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0px;
+}
 #sandwhich_length ul li {
 	display: inline-block;
-	margin: 10px;
+	margin: 0px 70px 0px 70px;
+	bottom: 0px;
 }
 
 #sandwhich_price ul li {
 	display: inline-block;
-	margin: 10px;
+	margin: 0px 60px 0px 60px;
+	bottom: 0px;
+}
+
+.provoloc {
+	float: left;
+	left: 30px;
+}
+
+.oremloc {
+	float: right;
+}
+
+hours {
+	position: relative;
+	text-align: center;
 }

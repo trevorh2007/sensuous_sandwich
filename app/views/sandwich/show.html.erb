@@ -2,11 +2,28 @@
 
 	<div>
 		<%= image_tag("logos/SSlogoNew.gif") %>
-		<p><%= link_to image_tag("logos/FacebookIcon.gif"), "https://www.facebook.com/Sensuous-Sandwich-120566154626861/" %></p>
-
+		<p id="facebook"><%= link_to image_tag("logos/FacebookIcon.gif"), "https://www.facebook.com/Sensuous-Sandwich-120566154626861/" %></p>
 	</div>
 
 </body>
+
+	<provoLocation>
+		<div class="provoloc">
+			<%= image_tag("location/location_provo", size: "500x300") %>
+		</div>
+
+		<div class="oremloc">
+		<%= image_tag("location/location_orem", size: "500x300") %>
+		</div>
+	</provoLocation>
+
+	<hours>
+		<div>
+			<p><strong>Our Hours</strong></p>
+			<p>Monday-Saturday</p>
+			<p>10:30 - 8:00</p>
+		</div>
+	</hours>
 
 	<div id='provo_address'>
 	  <ul>
@@ -15,9 +32,9 @@
 	  <li>Provo, UT 84601-4431</li>
 	  <li>(801) 377-9244</li>
 	  <li><a href="https://binged.it/2nN07iI">Map</a></li>
-	  <li>A link for your mobile device:</li>
-	  <li></li>
-	  <li>Open Mon-Sat, 10:30 - 8:00</li>
+	  <br>
+	  <li><%= image_tag("QR/provo_QR.png", size: "100x100") %></li>
+	  <li>Scan for directions!</li>
 	  </ul>
 	</div>
 
@@ -27,12 +44,13 @@
 			<li>Orem, UT 84097-8070</li>
 			<li>(801) 225-9475</li>
 			<li><a href="https://binged.it/2nN5lep">Map</a></li>
-			<li>A link for your mobile device:</li>
-			<li>Open Mon-Sat, 10:30 - 8:00</li>
+			<br>
+			<li><%= image_tag("QR/orem_QR.png", size: "100x100") %></li>
+			<li>Scan for directions!</li>
 		</ul>
 
 	</div>
-
+<!-- <size>
 	<div id='sandwhich_length'>
 		<ul>
 			<li>4"</li>
@@ -55,4 +73,5 @@
 			<li>$12.09</li>
 			<li>$17.49</li>
 		</ul>
+</size> -->
 	</div>
