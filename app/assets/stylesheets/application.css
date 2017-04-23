@@ -37,22 +37,24 @@ img {
 
 #provo_address {
 	position: absolute;
-	top: 550px;
-	left: 200px;
+	top: 500px;
+	left: 150px;
 }
 
 #provo_address ul li {
+	text-align: center;
 	display: block;
 }
 
 #orem_address {
 	position: absolute;
-	top: 550px;
-	right: 200px;
+	top: 500px;
+	right: 150px;
 }
 
 #orem_address ul li {
 	display: block;
+	text-align: center;
 }
 
 size {
