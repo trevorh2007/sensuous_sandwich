@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   resources :sandwich, except: [:new, :create, :edit, :update, :destroy]
   resources :menu, except: [:new, :create, :edit, :update, :destroy]
 
-  root to: 'sandwich#show'
+  root to: 'sandwich#home'
 end
